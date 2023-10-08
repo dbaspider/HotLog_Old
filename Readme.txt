@@ -1,20 +1,3 @@
-# HotLog_Old
-HotLog ver 2.2 for old Delphi version (D7 D6 D5)
-
-# Licence
-
-This unit is freeware, but under copyrights that remain mine for my parts of the code, and original writters for their parts of the code. This is mainly the case about "variant open array parameters" copying routines, that come from Rudy Velthuis' pages on the web at : http://rvelthuis.bei.t-online.de/index.htm   
-
-This unit can be freely used in any application, freeware, shareware or commercial. However, I would apreciate your sending me an email if you decide to use it. Of course, you use it under your own and single responsability. Neither me, nor contributors, could be held responsible for any problem resulting from the use of this unit.  ;-)
-
-It can also be freely distributed, provided all this licence remain within it unchanged, and that the readme.txt and this help file are distributed with it too.
-
-Latest version, bug corrections, aso. available at  http://mapage.noos.fr/qnno/pages/delphi_fr.htm  
-
-Copyright Â© 2004,2005 Olivier Touzot ( qnno@noos.fr )
-
-
-
 ________________________________________________________________________________
      
     ABOUT
@@ -75,7 +58,7 @@ ________________________________________________________________________________
     * Guillaume Cornu, for fixing the GetRegValue() function ;
     * Oleg Danilov, who added the SetMemoLimit() procedure ;
     * Vittorio Loschi, who corrected the buggy SetFileName() procedure ;
-    * "Sergue? who fixed a sometimes incorrect initialization ;
+    * "Sergueï" who fixed a sometimes incorrect initialization ;
     * Jean-Philippe R. who tracked and fixed a bug occuring in "append" mode ;
     
     ... And to all those of you who sent suggestions or encouragements.
@@ -122,7 +105,7 @@ v 1.4 (2004-11-17 : Usefull workaround brought by Luis Gonzalo Constantini Von
 v 1.3 (2004-10-02 : THLFileDef.SetFileName() procedure corrected by Vittorio
                     Loschi.)                                  
 
-v 1.2 (2004-07-05 : Correction of the "fast start" problem by "Sergue? :
+v 1.2 (2004-07-05 : Correction of the "fast start" problem by "Sergueï" :
                     When using hLog just after the call to StartLogging the
                     writer thread's queue could sometimes not yet exist, and the
                     very first lines were lost.)
